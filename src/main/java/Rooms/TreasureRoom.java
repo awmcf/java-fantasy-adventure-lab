@@ -1,4 +1,8 @@
 package Rooms;
 
-public class TreasureRoom {
+public class TreasureRoom extends Room {
+
+    public TreasureRoom(String name, String size) {
+        super(name, size);
+    }
 }
