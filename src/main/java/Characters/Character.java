@@ -14,4 +14,16 @@ public abstract class Character {
         this.healthPoints = healthPoints;
         this.equipment = new ArrayList<Weapons>();
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getHealthPoints() {
+        return this.healthPoints;
+    }
+
+    public ArrayList<Weapons> getEquipment() {
+        return this.equipment;
+    }
 }

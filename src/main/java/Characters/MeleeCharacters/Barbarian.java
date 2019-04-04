@@ -6,11 +6,4 @@ public class Barbarian extends MeleeCharacter {
         super(name, healthPoints);
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public int getHealthPoints() {
-        return this.healthPoints;
-    }
 }
