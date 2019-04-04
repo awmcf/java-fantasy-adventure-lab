@@ -1,4 +1,8 @@
 package Characters.RangedCharacters;
 
-public class Wizard {
+public class Wizard extends RangedCharacter{
+
+    public Wizard(String name, int healthPoints) {
+        super(name, healthPoints);
+    }
 }

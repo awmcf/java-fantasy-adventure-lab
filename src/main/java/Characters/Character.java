@@ -1,15 +1,17 @@
 package Characters;
 
+import Enums.Weapons;
+
 import java.util.ArrayList;
 
 public abstract class Character {
     protected String name;
     protected int healthPoints;
-    protected ArrayList<IEquip> equipment;
+    protected ArrayList<Weapons> equipment;
 
-    Character(String name, int healthPoints) {
+    public Character(String name, int healthPoints) {
         this.name = name;
         this.healthPoints = healthPoints;
-        this.equipment = new ArrayList<IEquip>();
+        this.equipment = new ArrayList<Weapons>();
     }
 }
